@@ -12,6 +12,10 @@
 
 /* 间距 */
 .m0{ margin:0;!important;}
+.mt5{ margin-top:5px;}
+.mr5{ margin-right:5px;}
+.mb5{ margin-bottom:5px;}
+.ml5{ margin-left:5px;}
 .mt10{ margin-top:10px;}
 .mr10{ margin-right:10px;}
 .mb10{ margin-bottom:10px;}
@@ -25,6 +29,10 @@
 .mb20{ margin-bottom:20px;}
 .ml20{ margin-left:20px;}
 .p0{ padding: 0!important;}
+.pt5{ padding-top:5px;}
+.pr5{ padding-right:5px;}
+.pb5{ padding-bottom:5px;}
+.pl5{ padding-left:5px;}
 .pt10{ padding-top:10px;}
 .pr10{ padding-right:10px;}
 .pb10{ padding-bottom:10px;}
@@ -63,6 +71,18 @@
 /* 侧导航 */
 .navbar{ background: #2e3f4f; position: fixed; top: 0; left: 0; bottom: 0;}
 .navmain{ width: 220px;}
+.adminfo{ background: #233644; padding: 5px 10px;}
+	.adminfo .adminimg{ border-radius: 50%; display: inline-block; vertical-align: middle;}
+	.adminfo .adminame{ color: #F3F3F3; font-weight: bold; display: block;}
+	.adminfo .admintype{ color: #8095a8;}
+.navlist li{ border-left: 4px solid #233644;}
+.navlist li.active{ background: #293846; border-left: 4px solid #31867e;}
+.navlist li:hover .listvum,
+.navlist li.active .listvum{ background: #293846; color: #fff;}
 .navlist a{ display: block; padding: 15px 20px; color: #a7b1c2;}
+.navlist-2 li:hover a{ background: #293846; color: #fff;}
+.navlist-2 li.active a{ background: #293846; color: #fff;}
+.navlist-2 li.active{ border: none;}
+.navlist-2 a{ display: block; padding: 10px 20px; padding-left: 42px; color: #a7b1c2;}
   
 
