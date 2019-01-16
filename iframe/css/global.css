@@ -75,14 +75,16 @@
 	.adminfo .adminimg{ border-radius: 50%; display: inline-block; vertical-align: middle;}
 	.adminfo .adminame{ color: #F3F3F3; font-weight: bold; display: block;}
 	.adminfo .admintype{ color: #8095a8;}
-.navlist li{ border-left: 4px solid #233644;}
-.navlist li.active{ background: #293846; border-left: 4px solid #31867e;}
+.navlist li{ border-left: 2px solid #2e3f4f;}
+.navlist li.active{ background: #293846; border-left: 2px solid #31867e;}
+.navlist li:hover{ border-color: #31867e;}
 .navlist li:hover .listvum,
 .navlist li.active .listvum{ background: #293846; color: #fff;}
 .navlist a{ display: block; padding: 15px 20px; color: #a7b1c2;}
-.navlist-2 li:hover a{ background: #293846; color: #fff;}
-.navlist-2 li.active a{ background: #293846; color: #fff;}
+.navlist-2 li{ border: none;}
 .navlist-2 li.active{ border: none;}
+.navlist-2 li:hover a,
+.navlist-2 li.active a{ background: #293846; color: #fff;}
 .navlist-2 a{ display: block; padding: 10px 20px; padding-left: 42px; color: #a7b1c2;}
   
 
