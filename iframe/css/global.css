@@ -82,8 +82,10 @@
 .navlist li.active .listvum{ background: #293846; color: #fff;}
 .navlist .arrow{ font-size: 16px!important; float: right;}
 .navlist a{ display: block; padding: 15px 20px; color: #a7b1c2;}
-.navlist-2{ display: none;}
-.navlist-2 li{ border: none;}
+.navlist-2{ display: none; position: relative;}
+.navlist-2:before{content: ''; display: block; position: absolute; z-index: 1; left: 25px; top: -16px; bottom: 12px; border: 1px dotted #fff; border-width: 0 0 0 1px;}
+.navlist-2 li{ border: none; position: relative;}
+.navlist-2 li:before{content: ''; display: block; position: absolute; z-index: 1; left: 28px; top: 18px; width: 9px; border: 1px dotted #fff; border-width: 1px 0 0;}
 .navlist-2 li.active{ border: none;}
 .navlist-2 li:hover a,
 .navlist-2 li.active a{ background: #293846; color: #fff;}
