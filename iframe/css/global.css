@@ -69,7 +69,7 @@
 .space-30{ max-height: 1px; min-height: 1px; border-bottom: 1px dashed #ccc; overflow: hidden; margin: 15px 0 14px; clear: both;}
 
 /* 侧导航 */
-.navbar{ background: #2e3f4f; position: fixed; top: 0; left: 0; bottom: 0;}
+.navbar{ background: #2e3f4f; position: fixed; top: 0; left: 0; bottom: 0; z-index: 9999;}
 .navmain{ width: 220px;}
 .adminfo{ background: #233644; padding: 5px 10px;}
 	.adminfo .adminimg{ border-radius: 50%; display: inline-block; vertical-align: middle;}
@@ -80,11 +80,17 @@
 .navlist li:hover{ border-color: #31867e;}
 .navlist li:hover .listvum,
 .navlist li.active .listvum{ background: #293846; color: #fff;}
+.navlist .arrow{ font-size: 16px!important; float: right;}
 .navlist a{ display: block; padding: 15px 20px; color: #a7b1c2;}
+.navlist-2{ display: none;}
 .navlist-2 li{ border: none;}
 .navlist-2 li.active{ border: none;}
 .navlist-2 li:hover a,
 .navlist-2 li.active a{ background: #293846; color: #fff;}
 .navlist-2 a{ display: block; padding: 10px 20px; padding-left: 42px; color: #a7b1c2;}
+/* 主框架 */
+.nav{ background: #f3f3f4; position: fixed; top: 0; left: 220px; right:0; z-index: 9999; height: 58px; line-height: 58px; padding: 0 15px; background: #fff; border-bottom: 1px solid #f6f6f6;}
+.main{ position: relative; top: 58px; left: 220px;}
+
   
 
