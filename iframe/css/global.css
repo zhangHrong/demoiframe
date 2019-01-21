@@ -90,10 +90,16 @@
 .navlist-2 li:hover a,
 .navlist-2 li.active a{ background: #293846; color: #fff;}
 .navlist-2 a{ display: block; padding: 10px 20px; padding-left: 42px; color: #a7b1c2;}
+/* 表格 */
+.vui-table th{ background: #eee;}
+.vui-table th,.vui-table td{ height: 20px; padding: 5px; border: 1px solid #ddd; text-align: center;}
+
 /* 主框架 */
 .nav{ background: #f3f3f3; position: fixed; top: 0; left: 220px; right:0; z-index: 9999; height: 58px; line-height: 58px; padding: 0 15px;border-bottom: 1px solid #f1f1f1;}
-.main{ position: relative; top: 58px; left: 220px;}
+.main{ position: absolute; top: 58px; left: 220px; right: 0;}
 .main-wraper{ padding: 15px;}
+.filed{ border-top: 1px solid #ddd;}
+.filed legend{ margin-left: 20px; padding: 0 10px; font-size: 13px;}
 
   
 

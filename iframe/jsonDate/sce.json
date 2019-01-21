@@ -1,0 +1,8 @@
+{	"retCode":"AAAAAAA",
+	"parm": [
+            { "rmId":1,"custNm":"代码"},
+			{ "rmId":2,"custNm":"素材"},
+			{ "rmId":3,"custNm":"模版"},
+			{ "rmId":4,"custNm":"教程"}
+        ]
+}
