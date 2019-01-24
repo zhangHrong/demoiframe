@@ -95,7 +95,7 @@
 .vui-table th,.vui-table td{ height: 20px; padding: 5px; border: 1px solid #ddd; text-align: center;}
 
 /* 主框架 */
-.nav{ background: #f3f3f3; position: fixed; top: 0; left: 220px; right:0; z-index: 9999; height: 58px; line-height: 58px; padding: 0 15px;border-bottom: 1px solid #f1f1f1;}
+.nav{ background: #f3f3f3; position: fixed; top: 0; left: 220px; right:0; z-index: 9999; height: 58px; line-height: 58px; padding: 0 15px;border-bottom: 1px solid #f1f1f1;box-shadow: 0 1px 5px rgba(0,0,0,.11);}
 .main{ position: absolute; top: 58px; left: 220px; right: 0;}
 .main-wraper{ padding: 15px;}
 .filed{ border-top: 1px solid #ddd;}
