@@ -65,6 +65,7 @@
 
 /* 光标选中颜色 */
 ::selection{ background-color:#ec494e; color: #fff;}
+::-moz-selection{background-color:#ec494e;color:#fff}
 
 /*分割线*/
 .space-10{ max-height: 1px; min-height: 1px; border-bottom: 1px dashed #ccc; overflow: hidden; margin: 5px 0 4px; clear: both;}
