@@ -1,6 +1,6 @@
 /* use YUI.reset */
 html{color:#000;height:100%;overflow-x:hidden;overflow-y:scroll;-webkit-text-size-adjust:none;}
-body{font: 13px/1.5 Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif; color:#676a6c; background:#f9f9f9;}
+body{font: 13px/1.5 'Open Sans',Helvetica,Arial,"\5b8b\4f53",sans-serif; color:#676a6c; background:#f9f9f9;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,a,span,i,b{margin:0;padding:0}
 table{border-collapse:collapse;border-spacing:0;width:100%;}
 fieldset,img,input{border:0}

@@ -95,8 +95,12 @@
 .navlist-2 li.active a{ background: #293846; color: #fff;}
 .navlist-2 a{ display: block; padding: 10px 20px; padding-left: 42px; color: #a7b1c2;}
 /* 表格 */
-.vui-table th{ background: #eee;}
-.vui-table th,.vui-table td{ height: 20px; padding: 5px; border: 1px solid #ddd; text-align: center;}
+.vable{ background: #fff; table-layout: fixed;}
+.vable th, .vable td { text-align: center; height: 20px; padding: 6px;}
+.vable td { border: 1px solid #f5f5f5; font-size: 12px;}
+.vable thead th { color: #ffffff; background: #4FC3A1;}
+.vable thead th:nth-child(odd) { color: #ffffff; background: #324960; }
+.vable tr:nth-child(even) { background: #F8F8F8;}
 
 /* 主框架 */
 .nav{ background: #f3f3f3; position: fixed; top: 0; left: 220px; right:0; z-index: 9999; height: 58px; line-height: 58px; padding: 0 15px;border-bottom: 1px solid #f1f1f1;box-shadow: 0 1px 5px rgba(0,0,0,.11);}

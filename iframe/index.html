@@ -11,9 +11,12 @@
 		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/pagination.min.js" type="text/javascript" charset="utf-8"></script>
-		<!--[if lt IE 9]>//判断当前浏览器的版本是否小于IE 9
+		<!--[if lt IE 9]>
 			<script src="js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
-		<!--[endif]-->
+		<![endif]-->
+		<!--[if lte IE 8]>
+			<script src="js/selectivizr.js"></script>
+		<![endif]-->
 	</head>
 	<body>
 		<!-- 侧导航 -->
@@ -89,13 +92,14 @@
 		<div class="main">
 			<div class="main-wraper">
 				<fieldset class="filed"><legend>表格</legend></fieldset>
-				<table class="vui-table">
+				<table class="vable">
 					<thead>
 						<tr>
-							<th>人物</th>
-							<th>民族</th>
-							<th>出场时间</th>
-							<th>格言</th>
+							<th>Header 1</th>
+							<th>Header 2</th>
+							<th>Header 3</th>
+							<th>Header 4</th>
+							<th>Header 5</th>
 						</tr>
 					</thead>
 					<tbody id="itabo">
@@ -135,6 +139,7 @@
 							'<td>' + obj.accno + '</td>' +
 							'<td>' + obj.accnm + '</td>' +
 							'<td>' + obj.parmId + '</td>' +
+							'<td>' + obj.parcNm + '</td>' +
 							'<td>' + obj.parcNm + '</td>' +
 							'</tr>';
 					});
