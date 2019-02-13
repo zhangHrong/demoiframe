@@ -95,6 +95,7 @@
 				<table class="vable">
 					<thead>
 						<tr>
+							<th>序号</th>
 							<th>Header 1</th>
 							<th>Header 2</th>
 							<th>Header 3</th>
@@ -115,6 +116,7 @@
 			$(this).find('.navlist-2').toggle(300);
 			$(this).find('.arrow').toggleClass('fa-angle-down');
 			$(this).siblings().find('.navlist-2').hide(300);
+			$(this).siblings().find('.arrow').removeClass('fa-angle-down');
 			$(this).addClass('active').siblings().removeClass('active');
 		})
 		$('.navlist-2').on('click','li',function(e){
@@ -136,6 +138,7 @@
 					var subList = mmkMenuList.slice((page - 1) * size, page * size);
 					subList.forEach(function (obj, index, arr) {
 						htm += '<tr>' +
+							'<td>' + (index+1) + '</td>' +
 							'<td>' + obj.accno + '</td>' +
 							'<td>' + obj.accnm + '</td>' +
 							'<td>' + obj.parmId + '</td>' +
